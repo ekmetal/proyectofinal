@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row titulo">
+        <h1 class="col-12">Estudios:</h1>
+    </div>
+
+    <div class="row estudios">
+        <div *ngFor="let educacion of educacionLista" class="col primaria">
+            <h5>{{educacion.nombre}}</h5>
+            <ul>
+                <li>{{educacion.institucion}}</li>
+                <li>{{educacion.titulo}}</li>
+                <li>{{educacion.ano}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

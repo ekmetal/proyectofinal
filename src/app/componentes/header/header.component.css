@@ -1,0 +1,56 @@
+.container {
+    background-color: #fff;
+}
+
+.logo{
+    text-align: left;
+    color: #f0f8ff;
+    margin: 15px 0;
+    font-size: 35px;
+}
+
+
+.contenedor-menu{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.contenedor-menu a{
+    color: rgb(22, 139, 241);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 15px;
+}
+
+.btn {
+    border-width: 2px;
+}
+
+.contenedor-redes-sociales {
+    width: 45%;
+    float: right;
+    text-align: right;
+    color: aliceblue;
+    padding: 5px 10px 10px 10px;
+}
+
+.contenedor-redes-sociales img{
+    width: 50px;
+    margin: 10px;
+}
+
+.banner{
+    background-image: url(../../../assets/banner.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+.nombre {
+    font-style: italic;
+    font-size: 50px;
+    color: orange;
+    text-align: left;
+    margin-top: 40px;
+    text-shadow: 1px 1px aliceblue;
+}
+

@@ -1,0 +1,9 @@
+<div class="container">
+    <div *ngFor="let acerca of acercaDeDatos" class="row contenedor-acerca-de">
+        <div class="col-sm-12 col-md-7 col-lg-12">
+            <img src = {{acerca.fotoperfil}} alt = "Foto perfil">
+            <h2>{{acerca.titulo}}</h2>
+            <p>{{acerca.datos}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,97 @@
+{
+    "misdatos": [{
+        "name": "Eric Iván Knudsen",
+        "study": "Desarrollador Web",
+        "residencia": "Rosario, Santa Fe, Argentina"
+    }],
+
+    "acercaDe": [
+        {
+            "fotoperfil": "../../assets/mifoto.jpg",
+            "titulo": "Acerca de",
+            "datos": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, officia aliquid. Hic cupiditate deleniti voluptatibus corporis omnis corrupti ipsum sunt voluptas distinctio? Cupiditate, necessitatibus sequi asperiores autem culpa vero cumque, et debitis, corrupti neque quidem? A, dignissimos odit iusto reprehenderitamet earum voluptatum cumque soluta sapiente, nihil vero. Suscipit repellendus doloremque nihil, quo afacilis exercitationem at corporis vitae nobis id, optio ipsum obcaecati deserunt dicta voluptatum cum voluptas? Quaerat quasi asperiores rem iste mollitia officia inventore consequatur sint nihil, cum alias, hicipsamiu revoluptates maiores quas quod nisi libero possimus eligendi rerum dolore? Nihil, eligendi magni oditac cusantium sint molestiae earum repellat ea, expedita corporis laborum nobis similique. Quos minima earumac cusantium similique distinctio id, facilis quisquam. Adipisci?"
+        }
+    ],
+    "experiencias": [
+        {
+            "nombre": "Ferretería Stylfer",
+            "ubicacion": "Avellaneda 1576",
+            "cargo": "Atención al cliente",
+            "telefono": "156-676086",
+            "start": 2008,
+            "end": 2009
+        },
+        {
+            "nombre": "Prosegur Sa",
+            "ubicacion": "San Lorenzo 2936",
+            "cargo": "Vigilador",
+            "telefono": "0800-888-8188",
+            "start": 2009,
+            "end": 2014
+        },
+        {
+            "nombre": "Ingeconcer",
+            "ubicacion": "Ingeniero Thedy 370",
+            "cargo": "Departamento de post-venta",
+            "telefono": "3414234178",
+            "start": 2014,
+            "end": 2015
+        },
+        {
+            "nombre": "Cirugía Rex",
+            "ubicacion": "Urquiza 3201",
+            "cargo": "Atencion al público",
+            "telefono": "439-3017",
+            "start": 2015,
+            "end": 2021
+        },
+        {
+            "nombre": "Óptica Knudsen",
+            "ubicacion": "Cafferata 325",
+            "cargo": "Dueño",
+            "telefono": "4385797",
+            "start": 2021,
+            "end": 2023
+        }
+    ],
+    "educacion": [
+        {
+            "nombre": "Primaria completa.",
+            "institucion": "Esc. Nº 115 - Pcia de Salta.",
+            "titulo": "Primario.",
+            "ano": "1998"
+        },
+        {
+            "nombre": "Secundario completo",
+            "institucion": "Esc. EEMPA Padre Barbé.",
+            "titulo": "Bachiller",
+            "ano": "2013"
+        },
+        {
+            "nombre": "Carpintería y Ebanistería.",
+            "institucion": "Centro de formación profecional Nº 1.",
+            "titulo": "Carpintero Ebanista",
+            "ano": "2004"
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "Café Web",
+            "detalles": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, dolores. Unde minima similique inventore. Itaque fuga ipsa possimus. Iure necessitatibus esse provident cum enim animi autem quis in id deleniti nam consequatur, vel molestias fugit totam, rem doloribus mollitia assumenda explicabo aspernatur eum saepe iste accusantium. Quisquam voluptates dolore alias ipsum corrupti et repudiandae dolores nemo dignissimos corporis minus dolor nulla voluptatem officiis ratione maxime natus vitae animi atque velit, explicabo ad. Facere doloremque ipsum illo veritatis qui earum cum?",
+            "url": "http:/google.com",
+            "imagen": "../../assets/restaurante.png"
+        },
+        {
+            "nombre": "Portfolio Profesional",
+            "detalles": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, dolores. Unde minima similique inventore. Itaque fuga ipsa possimus. Iure necessitatibus esse provident cum enim animi autem quis in id deleniti nam consequatur, vel molestias fugit totam, rem doloribus mollitia assumenda explicabo aspernatur eum saepe iste accusantium. Quisquam voluptates dolore alias ipsum corrupti et repudiandae dolores nemo dignissimos corporis minus dolor nulla voluptatem officiis ratione maxime natus vitae animi atque velit, explicabo ad. Facere doloremque ipsum illo veritatis qui earum cum?",
+            "url": "http:/google.com",
+            "imagen": "../../assets/portfolio.png"
+        },
+        {
+            "nombre": "Portfolio Personal",
+            "detalles": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, dolores. Unde minima similique inventore. Itaque fuga ipsa possimus. Iure necessitatibus esse provident cum enim animi autem quis in id deleniti nam consequatur, vel molestias fugit totam, rem doloribus mollitia assumenda explicabo aspernatur eum saepe iste accusantium. Quisquam voluptates dolore alias ipsum corrupti et repudiandae dolores nemo dignissimos corporis minus dolor nulla voluptatem officiis ratione maxime natus vitae animi atque velit, explicabo ad. Facere doloremque ipsum illo veritatis qui earum cum?",
+            "url": "http:/google.com",
+            "imagen": "../../assets/layout.png"
+        }
+    ]
+}

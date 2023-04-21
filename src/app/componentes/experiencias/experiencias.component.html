@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row titulo">
+        <h1>Experiencia</h1>
+    </div>
+
+    <div class="row experiencia">
+        <div *ngFor="let experiencias of experienciasLista" class="col experiencia">
+            <h4>{{experiencias.nombre}}</h4>
+            <ul>
+                <li>{{experiencias.ubicacion}}</li>
+                <li>{{experiencias.cargo}}</li>
+                <li>{{experiencias.telefono}}</li>
+                <li>{{experiencias.start}}</li>
+                <li>{{experiencias.end}}</li>
+            </ul>
+        </div>
+    </div> 
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <h1 class="col-12 titulo">Proyectos realizados</h1>
+    </div>
+
+    <div *ngFor="let proyecto of proyectosLista" class="row contenedor-proyectos">
+        <div class="col-sm-12 col-md-5 col-lg-7 contenido">
+            <h2 class="subtitulo">{{proyecto.nombre}}</h2>
+            <p>{{proyecto.detalles}}</p>
+            <a href="{{proyecto.url}}">Link a la web</a>
+        </div>
+
+        <div class=" col-sm-12 col-md-5 col-lg-4 offset-lg-1 imagen">
+            <img src={{proyecto.imagen}} alt="">
+        </div>
+    </div>
+</div>

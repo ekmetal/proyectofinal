@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-7 col-lg-6 contenedor-menu">
+            <img src="../../../assets/inti.png" alt="">
+            <img src="../../../assets/ArgentinaPrograma.png" alt="">
+            <img src="../../../assets/minEcono.png" alt="">
+        </div>
+
+        <div class="col-sm-12 col-md-7 col-lg-6 contenedor-redes-sociales">
+
+            <a class="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/facebook.png" alt=""></a>
+
+            <a class="instagram" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/instagram.png" alt=""></a>
+
+            <a class="youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/youtube.png" alt=""></a>
+
+            <a class="github" href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="../assets/github.png" alt=""></a>
+
+            <button type="submit" class="btn btn-outline-primary btn-m"><a routerLink="/login">Login</a></button>
+        </div>
+
+    </div>
+
+    <div *ngFor="let nombres of miPortfolio" class="row banner">
+        <div class="col-sm-12 col-md-7 col-lg-4 nombre">
+            <h1>{{nombres.name}}</h1>
+            <h2>{{nombres.study}}</h2>
+        </div>
+        
+    </div>
+</div>

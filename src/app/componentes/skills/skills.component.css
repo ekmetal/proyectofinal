@@ -1,0 +1,47 @@
+.titulo{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px 10px 10px 10px;
+    border: solid 1.5px aliceblue;
+    border-radius: 10px;
+}
+
+.titulo:hover{
+    background: aliceblue;
+    color: black;
+    border: solid 1.5px rgb(206, 100, 30);
+    border-radius: 10px;
+}
+
+.contenedor-hard {
+    float: left;
+    width: 47%;
+    margin: 15px;
+    color: aliceblue;
+    padding: 5px 10px 10px 10px;
+    border: solid 1.5px aliceblue;
+    border-radius: 10px;
+}
+
+.contenedor-hard:hover{
+    border: solid 1.5px rgb(206, 100, 30);
+    border-radius: 10px;
+}
+
+.contenedor-soft {
+    float: right;
+    width: 47%;
+    margin: 15px;
+    color: aliceblue;
+    padding: 5px 10px 10px 10px;
+    border: solid 1.5px aliceblue;
+    border-radius: 10px;
+}
+
+.contenedor-soft:hover{
+    border: solid 1.5px rgb(206, 100, 30);
+    border-radius: 10px;
+}
